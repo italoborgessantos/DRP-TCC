@@ -42,7 +42,7 @@ connection = pymysql.connect(
 
 cloudwatch = boto3.client(
     "cloudwatch",
-    region_name="sa-east-1"
+    region_name=""
 )
 
 try:
